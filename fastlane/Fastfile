@@ -1,0 +1,21 @@
+desc "custom build for testing"
+lane :custom_build_for_testing do
+  cocoapods
+  swiftlint(
+    mode: "lint",
+    executable: "Pods/SwiftLint/swiftlint",
+    config_file: ".swiftlint.yml"
+  )
+  scan(scheme: "ChatAppDebug", clean: true, build_for_testing: true)
+end
+
+desc "custom run tests"
+lane :custom_run_tests do
+  run_tests(scheme: "ChatAppDebug")
+end
+
+desc "build and run tests"
+lane :build_and_run_tests do
+  custom_build_for_testing
+  custom_run_tests
+end
