@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pixabayApi</key>
+	<string>$(pixabay_api)</string>
+	<key>servicesPort</key>
+	<string>$(chat_services_port)</string>
+	<key>servicesHost</key>
+	<string>$(chat_services_host)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Для установки фото необходимо предоставить доступ к камере</string>
+</dict>
+</plist>
