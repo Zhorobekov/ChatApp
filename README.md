@@ -1,5 +1,5 @@
 # chat-app-Zhorobekov
-[![CI](https://github.com/TFS-iOS/chat-app-Zhorobekov/actions/workflows/main.yaml/badge.svg)](https://github.com/TFS-iOS/chat-app-Zhorobekov/actions/workflows/main.yaml)
+[![CI](https://github.com/Zhorobekov/ChatApp/actions/workflows/main.yaml/badge.svg)](https://github.com/Zhorobekov/ChatApp/actions/workflows/main.yaml)
 
 Realtime Мессенджер разработанный в рамках курса по iOS разработке. В нем использован следующий стек технологий:
 
